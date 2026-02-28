@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 62px;
+    background: radial-gradient(51.61% 51.61% at 50% 50%, #E7F5FC 0%, #C1EAFF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: auto;
+    height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav a {
+    font-size: 16px;
+    margin: 16px;
+}
+
+#selected_a {
+    text-decoration-line: underline;
+    color: #C53771;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+    color: #C53771;
+}
+
+.frame1 h1 {
+    width: 100%;
+    margin: 0;
+    font-size: 50px;
+    color: #C53771;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.frame1 h1 span {
+    margin-right: 100px;
+}
+
+.div1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.div1 h4 {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.div1 h5 {
+    margin: -60px 0 0;
+    background-image: url('img/rectangle53.png');
+    width: 600px;
+    height: 120px;
+    background-size: 100% 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 0;
+}
+
+.frame1 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('img/fon1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1480px;
+    flex-wrap: wrap;
+}
+
+.fr-text1 {
+    font-size: 14px;
+    z-index: 1;
+    position: relative;
+    left: 6.8%;
+    top: 255px;
+    line-height: 18px;
+}
+
+.fr-text2 {
+    font-size: 14px;
+    text-align: right;
+    right: 5%;
+    top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.frame1 h2 {
+    font-size: 44px;
+    color: #C53771;
+    font-weight: 500;
+    margin: 0 0 30px;
+}
+
+.fr-text2 h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #C53771;
+    font-weight: 600;
+}
+
+.frame2 img {
+    width: 100px;
+    height: auto;
+}
+
+.frame2 p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#pes-hurt {
+    position: relative;
+    z-index: 0;
+    height: 600px;
+    bottom: 90px;
+    left: 40px;
+    transition: transform 1s ease;
+}
+
+#pes-hurt:hover {
+    transform: scale(1.1);
+}
+
+.knopa {
+    margin-top: 10%;
+    transition: transform 1s ease;
+}
+
+.knopa button {
+    width: 350px;
+    height: 60px;
+    background-color: #C53771;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.knopa img {
+    position: relative;
+    left: 310px;
+    bottom: 32px;
+    height: 64px;
+}
+
+.knopa:hover {
+    transform: scale(1.1);
+}
+
+.frame2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.frame3 {
+    background-image: url(img/fon2.png);
+    background-size: 100% 100%;
+    height: 850px;
+    width: 1280px;
+    margin-bottom: 40px;
+}
+
+.frame3 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.frame3 h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    color: #C53771;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #C53771;
+    align-items: center;
+}
+
+.footer-div {
+    background-image: url(img/footer.png);
+    background-size: 100% 100%;
+    height: 450px;
+    width: 1540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-left {
+    margin-top: 4%;
+}
+
+.foot-left p {
+    color: #ffffff;
+    margin-left: 70px;
+}
+
+.social-media {
+    background-image: url('img/paww.png');
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 720px;
+    margin-left: -4%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.foot-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.foot-img img {
+    height: 25px;
+    width: auto;
+}
+
+.social-media h6 {
+    margin: 0;
+    font-size: 20px;
+    color: #C53771;
+    font-weight: 400;
+}
+
+.footer-left-text {
+    margin-left: 7%;
+}
+
+.foot-right {
+    width: 550px;
+    margin-top: 150px;
+    margin-right: 80px;
+}
+
+.footer-row1,
+.footer-row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer-row2 {
+    width: 105%;
+}
+
+.foot-right a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-row2 img {
+    height: 80px;
+    width: auto;
+}
+
+.frame4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vwb button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    margin: 50px;
+}
+.vwb button img {
+    height: 45px;
+}
+.viewer{
+    width: 1160px;
+    height: 550px;
+    overflow: hidden;
+}
+.viewer img {
+    height: 100%;
+    width: auto;
+}
+#all_pets {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: transform 1s ease;
+}
+.pet-card{
+    width: 1160px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.pets-info {
+    width: 520px;
+}
+.frame4 h1 {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    margin: 0%;
+}
+.frame4 h2{
+    margin: -40px 0 0;
+    background-image: url('img/rectangle53.png');
+    height: 120px;
+    background-size: 100% 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 0;
+    width: 500px;
+}
+.vwb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pets-info p{
+    margin: 40px 0 0;
+    font-size: 14px;
+}
+.pets-info h3{
+    font-weight: 600;
+    font-size: 46px;
+    margin: 20px 0 5px;
+    color: #C53771;
+}
+.frame4 h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 50px 0 12px;
+}
+.choose-pets-but {
+    width: 350px;
+    height: 45px;
+    background-color: #C53771;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 90px;
+}
+.frame4 button {
+    transition: transform 1s ease;
+}
+
+.frame4 button:hover {
+    transform: scale(1.1);
+}
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filters span{
+    background: #C1EAFF;
+    border-radius: 20px;
+    padding: 6px 12px;
+    color: #C53771;
+    margin: 5px 0;
+}
